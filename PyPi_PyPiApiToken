@@ -1,0 +1,13 @@
+import requests
+
+api_token = "XXX"
+package_name = "example-package"
+
+headers = {
+    "Authorization": f"token {api_token}",
+    "Accept": "application/json",
+}
+
+# Pobranie informacji o pakiecie z PyPi
+response = requests.get(f"https://pypi.org/pypi/{package_name}/json", headers=headers)
+print(response.json())
