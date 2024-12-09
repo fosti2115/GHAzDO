@@ -20,3 +20,7 @@
 | PyPi       | PyPiApiToken                                    |
 | Twilio     | TwilioApiKeyCredentials                         |
 | Twilio     | TwilioCredentials                               |
+| Google     | GoogleApiKey                                    |
+| Google     | GoogleCloudPrivateKeyId                         |
+| Google     | GoogleCloudStorageServiceAccountAccessKey       |
+| Google     | GoogleOAuthCredentials                          |
