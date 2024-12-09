@@ -1,0 +1,13 @@
+import requests
+
+base_url = "https://your-instance.atlassian.net"
+access_token = "XXX"
+
+headers = {
+    "Authorization": f"Bearer {access_token}",
+    "Accept": "application/json",
+}
+
+# Pobranie listy projektów
+response = requests.get(f"{base_url}/rest/api/3/project", headers=headers)
+print(response.json())
