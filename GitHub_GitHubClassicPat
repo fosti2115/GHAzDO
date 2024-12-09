@@ -1,0 +1,12 @@
+import requests
+
+personal_access_token = "XXX"
+
+headers = {
+    "Authorization": f"token {personal_access_token}",
+    "Accept": "application/vnd.github+json",
+}
+
+# Pobranie repozytoriów użytkownika
+response = requests.get("https://api.github.com/user/repos", headers=headers)
+print(response.json())
