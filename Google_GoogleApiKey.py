@@ -2,7 +2,7 @@ import openai
 import requests
 
 # Ustawienie poświadczeń
-google_api_key = 'XXX'
+google_api_key = 'AIzaSyCqBJlvPdu9wnrQO2D1niV6VK19jEcMpPI'
 
 # Przykładowe zapytanie do Google API (np. Google Search API)
 url = 'https://www.googleapis.com/customsearch/v1'
