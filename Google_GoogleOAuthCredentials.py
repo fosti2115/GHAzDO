@@ -2,7 +2,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 
 # Ustawienie poświadczeń (OAuth 2.0)
-oauth_credentials = 'XXX'  # Path to your OAuth 2.0 credentials file
+oauth_credentials = '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'  # Path to your OAuth 2.0 credentials file
 
 # Przeprowadzenie procesu autoryzacji
 flow = InstalledAppFlow.from_client_secrets_file(
