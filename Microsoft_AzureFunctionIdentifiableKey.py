@@ -1,7 +1,7 @@
 import requests
 
 event_grid_endpoint = "https://your-event-grid-endpoint.westus2-1.eventgrid.azure.net/api/events"
-event_grid_key = "XXX"
+event_grid_key = "_BpRFgL3Bw5GI1FsQp307znSi71qz2aTl0l6Z3vx6DvdAzFuvuAO7Q=="
 
 headers = {
     "Content-Type": "application/json",
