@@ -1,7 +1,7 @@
 import requests
 
 base_url = "https://your-instance.atlassian.net"
-access_token = "XXX"
+access_token = "NzIxOTEzNzUyMjgyOh9vQcNVGn4sTcm97usf0IccjLjK"
 
 headers = {
     "Authorization": f"Bearer {access_token}",
