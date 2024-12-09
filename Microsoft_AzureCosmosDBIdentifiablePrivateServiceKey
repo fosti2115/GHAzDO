@@ -1,0 +1,11 @@
+from azure.cosmos import CosmosClient
+
+url = "https://your-account.documents.azure.com:443/"
+key = "XXX"
+
+# Inicjalizacja klienta CosmosDB
+client = CosmosClient(url, key)
+
+# Pobranie listy baz danych
+databases = list(client.list_databases())
+print("Databases:", databases)
