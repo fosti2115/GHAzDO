@@ -1,6 +1,7 @@
 # GHAzDO
 #list
-Provider	Token Name
+
+#Provider	Token Name
 Amazon	AwsCredentials
 Amazon	AwsTemporaryCredentials
 Atlassian	Oauth2
