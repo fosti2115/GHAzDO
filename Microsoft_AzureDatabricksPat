@@ -1,0 +1,12 @@
+import requests
+
+base_url = "https://your-databricks-instance.azuredatabricks.net"
+personal_access_token = "XXX"
+
+headers = {
+    "Authorization": f"Bearer {personal_access_token}",
+}
+
+# Pobranie listy klastrów
+response = requests.get(f"{base_url}/api/2.0/clusters/list", headers=headers)
+print(response.json())
