@@ -1,6 +1,6 @@
 import requests
 
-personal_access_token = "XXX"
+personal_access_token = "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"
 
 headers = {
     "Authorization": f"token {personal_access_token}",
