@@ -1,0 +1,12 @@
+import requests
+
+base_url = "https://your-jfrog-instance.jfrog.io"
+api_key = "XXX"
+
+headers = {
+    "X-JFrog-Art-Api": api_key,
+}
+
+# Pobranie listy repozytoriów
+response = requests.get(f"{base_url}/artifactory/api/repositories", headers=headers)
+print(response.json())
