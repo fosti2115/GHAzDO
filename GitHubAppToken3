@@ -1,0 +1,12 @@
+import requests
+
+app_token = "80cb32896f20da1cb1237232fa0c4dff9729f99b"
+
+headers = {
+    "Authorization": f"Bearer {app_token}",
+    "Accept": "application/vnd.github+json",
+}
+
+# Pobranie danych o aplikacji
+response = requests.get("https://api.github.com/app", headers=headers)
+print(response.json())
