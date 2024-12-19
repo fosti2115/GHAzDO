@@ -1,6 +1,6 @@
 import requests
 
-app_token = "Jk4Avfelm4XJPWrUqTQj2G5Ue5H96UUa6qEWFcr51sc"
+app_token = "ghs_awbQBlMsCHcZPhRiIpe4siSm2ucARG2wklVb"
 
 headers = {
     "Authorization": f"Bearer {app_token}",
