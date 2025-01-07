@@ -1,7 +1,7 @@
 import requests
 
 # Access Token
-access_token = '1629363414282776kxhTy3rKUAfMubhpvtgHn6aj1_Ro'
+access_token = 'EAAXJ5buEshgBOyRjdkR7AN7hwkFEhdjXhuCSNNtQ188ydjoNbPE7azZB44jo6rMP1PjZC1UZABRYF3q6Vy4YtbtpLzFu49cObW1U9P044pG41cMiYSJRmp2fXaZAP9PqZBdKM2fdLMzCwRaT7VZAlXL3v1Y06lt0AOL2zpfKMpMkcBZB8Sr4MIUsTHXZCRJZAqUiFW4ntFkrc1t4GFLo7vd2rabJZCKf8ZAQ8Q8HD4UZD'
 
 # Przykładowe zapytanie do Facebook Graph API
 url = 'https://graph.facebook.com/v15.0/me'
