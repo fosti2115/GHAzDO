@@ -1,0 +1,6 @@
+  val cred = new BasicSessionCredentials("gR1edgwINjwhVDvC8SYRV8mTDxNQRzAi", "OimkOFlfBBE8UQgXy9nLbx2kFxwv3Cve", "t5VsQ2dhbFwo6s6ezFtQNOysC9JenHZq")
+  val client = AmazonS3ClientBuilder
+    .standard()
+    .disableChunkedEncoding()
+    .withCredentials(new AWSStaticCredentialsProvider(cred))
+    .withPathStyleAccessEnabled(true)
